@@ -46,23 +46,30 @@ body {
      font-family: Helvetica, Arial, sans-serif;
      //background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
      //background-size: cover;
+     opacity: 0.92;
+    filter: alpha(opacity=92); /* For IE8 and earlier */
      
 }
 
 
 /******************************************
 /* FONT
+"Relaxr" - Extra bold, 24px
+"Get piece of mind with a single tap" - Semibold, 24px
+"Get it Now" - Extra bold, 14px. 5px border radius
+"Benefits" - Semibold, 20px
+"The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be." - Light, 13px
 /*******************************************/
 h1{color:#fff;font: 800 48px 'Open Sans', sans-serif;}
-h2{font:600 36px 'Open Sans', sans-serif;color:#fff;}
-h3{color:#121212;font:600 36px 'Open Sans', sans-serif;line-height: 36px;}
+h2{font:600 48px 'Open Sans', sans-serif;color:#fff;}
+h3{color:#033048;font:600 40px 'Open Sans', sans-serif;}
 
-p, li{font:300 24px 'Open Sans', sans-serif; line-height: 36px;color:#6c6b6b;}
-button p {font:800 28px 'Open Sans', sans-serif;text-align:center;color:#033048;}
+p, li{font:300 24px 'Open Sans', sans-serif; line-height: 36px;color:#606161;}
+button {font:800 28px 'Open Sans', sans-serif;text-align:center;color:#033048;}
 blockquote {color:#edeae8;font: 300 italic 36px 'Open Sans', sans-serif;text-align: center;line-height: 48px;}
 blockquote span {font:600 36px 'Open Sans', sans-serif;color:#fff;line-height: 64px;}
-.button-signup p{color:#fff;font: 800 24px 'Open Sans', sans-serif;text-align:center;}
-.footer-bg p{text-align: center;font:600 16px 'Open Sans', sans-serif;color:#fff;}
+.button-signup {color:#fff;font: 800 24px 'Open Sans', sans-serif;text-align:center;}
+.footer-bg p{text-align: center;font:600 18px 'Open Sans', sans-serif;color:#fff;}
 
 
 /******************************************
@@ -71,7 +78,7 @@ blockquote span {font:600 36px 'Open Sans', sans-serif;color:#fff;line-height: 6
 
 /* Center the container */
 #container {
-  max-width:1268px;
+  width:1268px;
   margin: auto;
 }
 .header-bg {position:relative;}
@@ -79,29 +86,26 @@ blockquote span {font:600 36px 'Open Sans', sans-serif;color:#fff;line-height: 6
 header {position:absolute;top:0%;left:0%;width:100%;}
 .header-content {margin:0 auto;width:100%;text-align: center;padding:2% 0 8% 0;}
 .header-logo {padding-left:10%;}
-.header-content button {margin-top:5%;}
-.benefits {padding: 5% 0 5% 10%;background-color: #f0efef;}
+.header-content button {margin-top:5.435%;}
+.benefits {padding: 2% 0 5% 10%;background-color: #f0efef;}
 .benefits-content {width:55%;}
 .benefits ul {list-style:initial;list-style-position: inside;margin-top:2%;}
 .benefits ul li{padding:1.5% 0 0 5%;}
-button{border-radius:10px;background-color: #f9e42e;padding:0% 8%;}
+button{border-radius:5px;background-color: #f9e42e;padding:1% 4%;}
 
 .quote-bg {width:100%;position:relative;}
-.quote-bg img {width:100%;display:block;}
+.quote-bg img {width:100%;display:block;display:block;}
 .quote-content {width:55%;position:absolute;top: 10%;left:22.5%;}
 
 .button-stripe {padding:2% 0;text-align: center;background-color: #f9e42e;}
 .button-signup {background-color:#053149;color:#fff;}
 .yellow-font {color:#f9e42e;}
-.footer-bg {background-color:#111;text-align: center;}
-.footer-content {width:100%;padding:2% 0;}
-.icon div {text-align: center;display: inline-block;margin:2%;}
+footer {background-color:#121212;text-align: center;}
+.footer-content {width:100%;padding-top:2%;}
+.icon div {text-align: center;display: inline-block;margin: 2%;}
 
 
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
 
 
 
